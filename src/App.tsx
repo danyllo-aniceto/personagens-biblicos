@@ -6,6 +6,7 @@ import { Notification } from "./components/Notification/notification";
 
 import charactersData from "./characters.json";
 import { LetterCard } from "./components/LetterCard/letterCard";
+import { CharacterList } from "./components/CharacterList/characterList";
 
 const capitalize = (str: string) => {
   return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
@@ -87,6 +88,7 @@ function App() {
       <CharacterInput onAddCharacter={handleAddCharacter} />
       {notification && <Notification message={notification} />}
       <LetterCard charactersRemaining={charactersRemaining} />
+      <CharacterList characters={characters} />
     </Container>
   );
 }
