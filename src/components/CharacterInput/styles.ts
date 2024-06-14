@@ -10,10 +10,12 @@ export const Input = styled.input`
   background: WHITE;
   border: none;
   border-radius: 5px;
-  font-family: "Pacifico", cursive;
+  font-family: "Pacifico", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
   &::placeholder {
     color: #213f77;
-    font-family: "Pacifico", cursive; /* Fonte do placeholder */
+    font-family: "Pacifico", "Gill Sans", "Gill Sans MT", Calibri,
+      "Trebuchet MS", sans-serif;
     font-size: 14px; /* Tamanho da fonte do placeholder */
   }
 

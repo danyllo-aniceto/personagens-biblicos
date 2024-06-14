@@ -17,6 +17,7 @@ export const Card = styled.div`
   background-color: #213f77;
   color: WHITE;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-  font-family: "Pacifico", cursive;
+  font-family: "Pacifico", "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+    sans-serif;
   font-size: 1em;
 `;
